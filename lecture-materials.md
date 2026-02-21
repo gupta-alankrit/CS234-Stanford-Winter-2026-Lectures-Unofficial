@@ -33,7 +33,7 @@ Lecture materials for this course are given below.
               <li>{{ l.label }}</li>
             {% endif %}
           {% endfor %}
-
+          
           {% if row.additional and row.additional.size > 0 %}
             <li>
               <span>Additional Materials:</span>
