@@ -1,7 +1,9 @@
 - topic: "Introduction to Reinforcement Learning"
   links:
-    - label: "Lecture 1 Draft Slides [Post class version]"
-      url: "/assets/lectures/lecture1_post.pdf"
+    - label: "Lecture 1 Draft Slides"
+      url: "/assets/lectures/lecture1pre.pdf"
+    - label: "Post class version"
+      url: "/assets/lectures/lecture1post.pdf"
   additional:
     - label: "High level introduction: SB (Sutton and Barto) Chp 1"
       url: "https://example.com"
