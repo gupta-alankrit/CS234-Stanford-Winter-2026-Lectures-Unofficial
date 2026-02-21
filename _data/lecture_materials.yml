@@ -6,9 +6,8 @@
       url: "/assets/lectures/lecture1post.pdf"
   additional:
     - label: "High level introduction: SB (Sutton and Barto) Chp 1"
-      url: "https://example.com"
     - label: "Linear Algebra Review"
-      url: "https://example.com"
+      url: "assets/lectures/cs229-linalg.pdf"
     - label: "Probability Review"
       url: "https://example.com"
     - label: "Python Tutorial"
