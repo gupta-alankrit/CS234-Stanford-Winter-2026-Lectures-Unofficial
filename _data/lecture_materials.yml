@@ -1,9 +1,9 @@
 - topic: "Introduction to Reinforcement Learning"
   links:
-    - label: "Lecture 1 Draft Slides"
-      url: "/assets/lectures/lecture1pre.pdf"
-    - label: "Post class version"
-      url: "/assets/lectures/lecture1post.pdf"
+    - lecture: 1
+      title: "Draft Slides"
+      pre_url: "/assets/lectures/lecture1pre.pdf"
+      post_url: "/assets/lectures/lecture1post.pdf"
   additional:
     - label: "High level introduction: SB (Sutton and Barto) Chp 1"
     - label: "Linear Algebra Review"
