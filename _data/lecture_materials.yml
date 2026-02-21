@@ -1,0 +1,35 @@
+# _data/lecture_materials.yml
+
+- topic: "Introduction to Reinforcement Learning"
+  links:
+    - label: "Lecture 1 Draft Slides [Post class version]"
+      url: "/assets/lectures/lecture1_post.pdf"
+  additional:
+    - label: "High level introduction: SB (Sutton and Barto) Chp 1"
+      url: "https://example.com"
+    - label: "Linear Algebra Review"
+      url: "https://example.com"
+    - label: "Probability Review"
+      url: "https://example.com"
+    - label: "Python Tutorial"
+      url: "https://example.com"
+
+- topic: "Tabular MDP planning"
+  links:
+    - label: "Lecture 2 Slides (pre-class)"
+      url: "/assets/lectures/lecture2_pre.pdf"
+    - label: "Post class, annotated"
+      url: "/assets/lectures/lecture2_post_annotated.pdf"
+  additional:
+    - label: "SB (Sutton and Barto) Chp 3, 4.1-4.4"
+      url: "https://example.com"
+
+- topic: "Tabular RL policy evaluation"
+  links:
+    - label: "Lecture 3 Slides (pre-class)"
+      url: "/assets/lectures/lecture3_pre.pdf"
+    - label: "Post class, with annotations"
+      url: "/assets/lectures/lecture3_post_annotated.pdf"
+  additional:
+    - label: "SB (Sutton and Barto) Chp 5.1, 5.5, 6.1-6.3"
+      url: "https://example.com"
