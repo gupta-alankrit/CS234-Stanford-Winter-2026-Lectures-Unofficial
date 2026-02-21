@@ -31,7 +31,15 @@ Lecture materials for this course are given below.
               <strong>Additional Materials:</strong>
               <ul>
                 {% for a in row.additional %}
-                  <li><a href="{{ a.url }}">{{ a.label }}</a></li>
+                  {% if a.url and a.url != "" %}
+                    {% if a.url contains "://" %}
+                      <li><a href="{{ a.url }}">{{ a.label }}</a></li>
+                    {% else %}
+                      <li><a href="{{ a.url | relative_url }}">{{ a.label }}</a></li>
+                    {% endif %}
+                  {% else %}
+                    <li>{{ a.label }}</li>
+                  {% endif %}
                 {% endfor %}
               </ul>
             </li>
