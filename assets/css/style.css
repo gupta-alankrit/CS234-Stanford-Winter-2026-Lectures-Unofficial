@@ -75,3 +75,36 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
   margin-top: 6px;
   padding-left: 18px;
 }
+
+/* Assignments table (Event + Status) */
+.assignments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.assignments-table thead th {
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 8px;
+}
+
+.assignments-table tbody td {
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 8px;
+}
+
+.event-col {
+  width: 22%;
+  font-weight: 600;
+}
+
+.status-col {
+  width: 78%;
+}
+
+.status-line {
+  margin: 2px 0;
+}
